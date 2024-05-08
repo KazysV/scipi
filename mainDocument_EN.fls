@@ -1,9 +1,9 @@
-PWD /home/kazimieras/studies/miniscipi
+PWD /home/kv/studies/scipi
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/kazimieras/studies/miniscipi/mainDocument_EN.tex
+INPUT /home/kv/studies/scipi/mainDocument_EN.tex
 OUTPUT mainDocument_EN.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls

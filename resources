@@ -2,3 +2,118 @@
 
 THIS DOCUMENT IS STRICTLY RESERVED FOR SOURCES AND SHORT SUMMARIES OF THEM
 
+https://www.sciencedirect.com/science/article/pii/S2213624X22000633?casa_token=uaKioAP2YkMAAAAA:mdk6JFKI10VnDGfamUkTLcU5lO6aow6TdWVVgKsZM9clvikQ8v4KHSxir-HerdDmSr-DVOqv
+
+Forecasting public transit passenger demand: With neural networks using APC data
+
+This article has great literature review, presents lots of articles predicition methods and evaluation criteria. Worth further investigation.
+
+The research is done on a routes with high density stations picked out. Data is aggregated via using APC (automated passenger counters). Data is then transformed to time series, with intervals of 15 mins and total passenger count is being evaluated.
+
+Algortihm used Seasonal ARIMA traditional approach to this type of problem.
+
+LSTM is a reccurent neural network approach to this issue.
+##################################################################
+
+Must talk about ITS (intelligent transportation systems)
+
+##################################################################
+
+https://ieeexplore.ieee.org/abstract/document/8811477
+
+Short-Term Passenger Flow Prediction in Urban Public Transport: Kalman Filtering Combined K-Nearest Neighbor Approach
+
+The existing prediction methods can be generally classified into three groups: the parametric methods, non-parametric methods, and hybrid methods [25]. The parametric methods assume an explicit relationship among the parameters. Typically, the parametric method expressions can be descripted by the statistical or physical knowledge of the variable extracted. The parametric methods include the linear autoregressive integrated moving average (ARIMA) method [37], [42], [45], [47], seasonal autoregressive integrated moving average (SARIMA) method [22], and Kalman filtering method 
+
+Furthermore, the non-parametric method expressions can be directly determined by the available data without any assumptions about data distribution or variable interrelations. The non-parametric methods include the support vector regression (SVR) method [4], [43], [46], Neural network method [22], [28], [34], [38], and K-nearest neighbor (KNN)
+
+KNN approach and Kalman filtering method, with the idea of adaptive weights allocation. The proposed prediction method requires both real time data and historical data as the input.
+
+Again data looks like time series in intervals of 15 mins aggregated via APC's or
+another passenger counting methods. 
+
+#############################################################################
+
+https://link.springer.com/article/10.1007/s11042-022-12306-3
+
+Passenger flow prediction in bus transportation system using deep learning
+
+Greedy-layer algorithm
+
+LSTM (Long short term memory)
+
+RNN (recurrent neural network)
+
+#############################################################################
+
+https://ieeexplore.ieee.org/abstract/document/6754040?casa_token=67qMPGBprfYAAAAA:rTDPEoSdYIS1lu2rhmRaM1a1QYB4aJd308SkSucO7o6Lt39VyKDN-IwdMyIZADX0QQ2pSuEB
+
+The Passenger Demand Prediction Model on Bus Networks
+
+Time varying poisson model - assumption based on periodicity of demand for bus services. 
+
+Weighted time varying poisson model - this weighted model helps to deal with uneven demand for various stations and periods of season.
+
+ARIMA -  is a well-known methodology to support both modeling and forecasting univariate time series data such as traffic flow data. 
+
+Sliding window ensemble framework - We have proposed three distinct predictive models to learn from long, medium and short-term historical data. One natural question to ask is: can we combine them all to further improve our prediction? In the last decade, regression and classification tasks on streams attracted major community attention due to its ubiquitous characteristics. The ensembles of such models are very important due to the challenges related with. One of the most popular models is the weighted ensemble [37]. Next we propose a model based on this one, which combines the three models introduced above to improve the prediction
+
+#################################################################################
+
+https://www.sciencedirect.com/science/article/pii/S0968090X17302024?casa_token=nSj9bkn7JysAAAAA:_lERy5PuFGtMMyrB6S3F5-YO8W1FpYszcDQsuVqcj97sX2tDpyT8PJB1dPowyorqVYCbq6Yo
+
+A novel passenger flow prediction model using deep learning methods
+
+Using an autoencoder unsupervised machine learning model
+
+Passenger flow prediction is a time-series, nonlinear, random and unstable problem, which depends mainly on copious amounts of high quality data and methodologies. Although there are many passenger flow prediction models, some problems remain.
+
+    (1)
+
+    Because of the periodicity of passenger flow, many prediction models have been built with datasets covering only a period of no more than one month and aggregated into several minute intervals. Datasets with larger time horizons may have larger intervals, such as a month or even a year. Furthermore, to prevent the results from being affected by extreme passenger flows on public holidays or weekends, data collected from these events is not taken into account, or is trained separately as different prediction models. Thus, most proposed models remain unsatisfactory.
+    (2)
+
+    Recently, to make the best use of the complementary advantages of different methods, an increasing number of researchers have proposed hybrid models for passenger flow prediction. These are primarily based on the integration of traditional classical algorithms and NN with a shallow architecture. Because of their essential limitations, it is difficult for these optimized models to extract the hierarchical features of passenger flow abstractly.
+    (3)
+
+    Most researchers have focused on passenger flow prediction for transportation modes such as railways, freeways, and urban rail transit, but they have seldom explored buses and other related systems. Given the diversity and complexity of public transportation, researches on passenger flow prediction should address all transportation modes.
+    (4)
+
+    In previous research, the temporality and spatiality of the historical passenger flow data have been widely discussed. However, the described features of the passenger flow vary. What features should be selected and used in these methods has seldom been discussed in detail. As a very important bridge between methodologies and prediction results, the input feature selections and combinations should be explained (Li and Chen, 2013, Su, 2013).
+
+################################################################################
+
+https://ieeexplore.ieee.org/abstract/document/7898469?casa_token=gPWZ3fFROa8AAAAA:NQtswXcVB-sG048tNJDVY6fEWlHnP5yxgpTSWVctM6P6qNp8p_sBmglsA-cH0sOFv58p0qlU
+
+A Real-Time Passenger Flow Estimation and Prediction Method for Urban Bus Transit Systems
+
+Coarse prediction was done and later was calibrated with extended kalman filter
+
+################################################################################
+
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0202707
+
+Predicting subway passenger flows under different traffic conditions
+
+Multilayer perceptron neural network model
+
+Support vector regression model
+
+Gradient boosted regression trees model 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
