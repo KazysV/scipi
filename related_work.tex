@@ -1,2 +1,23 @@
-\hspace{1 em} The research on optimisation of vehicle deployment is not a new topic,
-but there is a new iteration with the developments of machine learning and neural networks.
+\hspace{1 em} The technologies for aggregating passenger flow data have had significant
+advancements in the last decade. With the development of the Internet of Things (IoT)
+devices, Intelligent Transport Systems (ITS) have become widely available for public
+transportation fleet operators. Smart ticket composters, GPS tracking devices, automated
+passenger counters (APC) and data transmission technologies such as 5G networks became
+common with monitoring and managing public transport. 
+The collected data can be used not only for tracking Key Performance Indicators (KPIs),
+but also to model passenger flow and predict future demand. 
+
+The passenger flow prediction could be divided in terms of prediction time scale: short-term
+forecasting (minutes to hours), medium-term forecasting (hours to days) and long-term (months, seasons of the year).
+For short term passenger flow forecasting, short term traffic flow forecasts have an effect. Moreover,
+short term flow prediction could be divided in parametric and non-parametric models. Parametric models
+
+Parametric models is the standard approach for short-term flow forecasting. Models such as 
+Seasonal Autoregresive Integrated Moving Average (SARIMA) and Autoregressive Integrated Moving Average (ARIMA)
+have been used to predict demands for fleet\cite{ARIMA}. These models are well suited for time series predictions
+and widely used in the field of transportation management. However, due to linear nature of these models, they are not
+well suited to capture the non-linear patterns in the data.
+
+Non-parametric approach such as Long Short-Term Memory (LSTM) reccurent neural networks (RNN) have been used to predict passenger flow\cite{LSTM}.
+However RNN models have a flaw of vanishing gradient problem, which makes it difficult to train the model for long sequences of data.
+To overcome this problem, LSTM models were introduced. LSTM models have a memory cell that can store information for long periods of time.
