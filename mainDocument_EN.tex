@@ -4,6 +4,11 @@
 % comments/bug fixes send to template authors: Linas Bukauskas or Agnė Brilingaitė
 \documentclass[a4paper,12pt,fleqn]{article}
 \input{allPacks}
+\usepackage{chemfig}
+
+\usepackage[version=4,arrows=pgf-filled,
+textfontname=sffamily,
+mathfontname=mathsf]{mhchem}
 
 \newtoggle{inLithuanian}
  %If the report is in Lithuanian, it is set to true; otherwise, change to false
@@ -45,5 +50,15 @@
 \label{sec:intro}
 \input{introduction.tex}
 
+\newpage
+\section{Related work overview}
 
+\input{related_work.tex}
+
+
+\newpage
+\begin{thebibliography}{99}
+        \bibitem{HDIvsLPI}The Transport and Logistics Sector\’s Performance and the Social Development - A Comparison within the European Union - Scientific Figure on ResearchGate. Available from: \url{https://www.researchgate.net/figure/The-correlation-between-LPI-and-HDI-within-EU28-Source-of-data-World-Bank-United_fig1_275887205}
+        \bibitem{EEA}European Environment Agency. (2024). Greenhouse gas emissions from transport in Europe. Available from: \url{https://www.eea.europa.eu/data-and-maps/indicators/transport-emissions-of-greenhouse-gases/transport-emissions-of-greenhouse-gases-11}
+\end{thebibliography}
 \end{document}

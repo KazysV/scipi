@@ -1,3 +1,0 @@
-\babel@toc {english}{}\relax 
-\contentsline {section}{\nameref {sec:abstract}}{3}{section*.2}%
-\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
